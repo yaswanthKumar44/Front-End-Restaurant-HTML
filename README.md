@@ -40,7 +40,7 @@ Open In Editor
 Run
 Copy code
 # Clone Repository
-git clone https://github.com/yourusername/restaurant-ordering-platform.git
+git clone [https://github.com/yourusername/restaurant-ordering-platform.git](https://github.com/yaswanthKumar44/Front-End-Restaurant-HTML)
 
 # Navigate to Project Directory
 cd restaurant-ordering-platform
@@ -132,7 +132,7 @@ MIT License
 📞 Contact
 Project Maintainer: [Yaswanth Kumar]
 Email: yashyaswanth714@gmail.com
-Project Link: https://github.com/yourusername/restaurant-ordering-platform
+Project Link:[ https://github.com/yourusername/restaurant-ordering-platform](https://github.com/yaswanthKumar44/Front-End-Restaurant-HTML)
 🌟 Acknowledgements
 Inspired by modern food delivery experiences
 Built with passion for web development
