@@ -1,0 +1,73 @@
+<html><head>
+   
+   <style>
+body {
+  background-image: url('https://www.fsrmagazine.com/wp-content/uploads/2023/07/Restaurant-1-2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+  div.card {
+    width: 370px;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 16px 40px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  </style>
+    </head>
+    <body>
+    
+    <div class="bgimg-1">
+  
+     <center>  <h1 style="color:rgba(13, 236, 87, 0.655);">Login with Social Media or Manually</h1></center>
+     <center>
+      <table>
+        <tr>
+          <td style="color:rgb(0, 183, 255);">ENTER USER NAME:</td>
+          <td><input type="text" placeholder="user id"></td>
+        </tr>
+        <tr>
+          <td style="color:rgb(0, 183, 255);">ENTER PASSWORD:</td>
+          <td> <input type="password" placeholder="password" id="myInput"   onclick="myFunction()"></td>
+        </tr>
+      </table>
+      </center> 
+	  <script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+     </br>
+     <center>
+     <a href="home.html"><button>submit</button></a><br>
+	 <br><a href="forgetpassword.html"><button>forgetpassword?</button></a><br><br>
+     <div class="card">
+     <table>
+        <tr>
+          <th> 
+             <button>           
+            <a href="profile.html">
+              <img src="https://www.501commons.org/learn/for-training-providers/create-your-account-button/image" height="100" width="100"> </a></button></th>
+          <th>
+            <button> 
+              <a href="https://accounts.google.com/">
+                <img src="https://searchengineland.com/wp-content/seloads/2015/12/google-amp-fast-speed-travel-ss-1920.jpg" height="100" width="100"> </a>
+          </button>
+         </th>
+          <th>   <button>   <a href="https://www.facebook.com/login/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Facebook_Logo_%282019%29.svg/2560px-Facebook_Logo_%282019%29.svg.png" height="100" width="100"> </a>
+          </button>   </th>
+        </tr>
+        <tr>
+          <td><p style="color:rgb(38, 179, 23);"><a href="profile.html">NEW ACCOUNT</a></p></td>
+          <td><p style="color:hsl(107, 94%, 49%);"><a href="https://accounts.google.com/AddSession/signinchooser?hl=en&continue=https%3A%2F%2Fwww.google.com%3Fhl%3Den-US&ec=GAlA8wE&theme=glif&flowName=GlifWebSignIn&flowEntry=AddSession">GOOGLE</a></p></td>
+          <td><p style="color:rgb(140, 255, 0);"><a href="https://www.facebook.com/login/">FACEBOOK</a></p></td>
+        </tr>
+      </table>
+    </div>
+    </center>
+    </div>
+  </body></html>

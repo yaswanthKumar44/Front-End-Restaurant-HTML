@@ -1,0 +1,99 @@
+<html>
+<head>
+<style>
+
+ body {
+  background-image: url('https://www.fsrmagazine.com/wp-content/uploads/2023/07/Restaurant-1-2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+ input[type="submit"] {
+            padding: 0.5em 1em;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+			
+        }
+input[type="text"] {
+            padding: 0.5em;
+            width: 500px;
+			
+        }
+
+       input[type="number"] {
+            padding: 0.5em;
+            width: 500px;
+        }
+		 input[type="gmail"] {
+            padding: 0.5em;
+            width: 500px;
+        } input[type="password"] {
+            padding: 0.5em;
+            width: 500px;
+        }
+		 input[type="address"] {
+            padding: 0.5em;
+            width: 500px;
+			height:100px;
+        } input[type="dob"] {
+            padding: 0.5em;
+            width: 500px;
+        }
+		 input[type="pincode"] {
+            padding: 0.5em;
+            width: 500px;
+        }
+ </style>
+ </head>
+<body>
+<center>
+<h1>CREATE NEW ACCOUNT</h1>
+<table style="background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=background-blur-clean-531880.jpg&fm=jpg'); ">
+        <tr>
+          <td style="color:blue;">ENTER NAME:</td>
+		  <td><input type="text" placeholder="name"></td>
+        </tr>
+		<tr>
+          <td style="color:blue;">ENTER DOB:</td>
+		  <td><input type="dob" placeholder="MM-DD-YYYY"></td>
+        </tr>
+        <tr>
+          <td style="color:blue;">ENTER AGE:</td>
+		  <td><input type="number" placeholder="age"></td>
+        </tr><tr>
+          <td style="color:blue;">ENTER GMAIL:</td>
+		  <td><input type="gmail" placeholder="abc@gmail.com"></td>
+        </tr><tr>
+          <td style="color:blue;">ENTER NUMBER:</td>
+		  <td><input type="number" placeholder="mobile number"></td>
+        </tr><tr>
+          <td style="color:blue;">ENTER ADDRESS:</td>
+		  <td><input type="address" placeholder="location"></td>
+        </tr><tr>
+          <td style="color:blue;">ENTER PINCODE:</td>
+		  <td><input type="pincode" placeholder="pincode"></td>
+        </tr><tr>
+          <td style="color:blue;">ENTER PASSWORD:</td>
+		  <td><input type="password" placeholder="**********" id="myInput"   onclick="myFunction()"></td>
+        </tr>
+		<tr>
+          <td style="color:blue;">CONFIRM PASSWORD:</td>
+		  <td><input type="password" placeholder="**********" id="myInput"   onclick="myFunction()"></td>
+        </tr>
+
+      </table>
+	  <button style="color:green;"><a href="home.html">submit</a></button>
+ </center>
+  <script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script></body>
+</html>

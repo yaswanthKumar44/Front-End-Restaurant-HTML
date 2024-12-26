@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    input[type="text"] {
+         padding: 0.5em;
+         width: 500px;
+     }
+
+     input[type="submit"] {
+         padding: 0.5em 1em;
+         background-color: #333;
+         color: #fff;
+         cursor: pointer;
+     }
+     .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #15e0f6;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #53368d;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+ </style>
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.card button {
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card button:hover {
+  opacity: 2.0;
+}
+</style>
+  <title>MY RESTAURANT</title>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  </style>
+    </style>
+  <style>
+        body {
+          background-image: url('https://cdn.wallpapersafari.com/53/86/NBbM7z.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+		
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="home.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="card.html">cart</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">about us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="help.html">help</a>
+      </li>  
+	  <a style="margin-left: 650px;">
+<input type="text" placeholder="search.."></a>
+<a style="margin-left: 01px;">
+	<button style='font-size:24px'><img src="https://tse3.mm.bing.net/th?id=OIP.zo0X5ktg5GwjXQRtSKMakQHaHa&pid=Api&P=0&h=180" height="35" width="35"></button>
+	 </a>
+   	<a style="margin-left: 20px;">
+	<a href="profile.html"><button style='font-size:01px'><img src="https://tse2.mm.bing.net/th?id=OIP.OOIBEHhF3_2jj60X_BJTygHaHa&pid=Api&P=0&h=180" height="40" width="40" </button>
+	</a>
+	 </a> 
+    </ul>
+  </div> 
+</nav>
+</div>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="breakfast.html">Break fast</a>
+    <a href="lunch.html">Lunch</a>
+    <a href="dinner.html">Dinner</a>
+    
+  </div>
+  
+  <div id="main" style="margin-left: 1360px;">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+  </div>
+  
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+   
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+   
+  }
+  </script>
+</strong>
+<center>
+  <strong><H1 style="color: rgb(255, 0, 140);">MY RESTAURANT</H1> </br>
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/1e8feb109720503.5fda2a433c12d.jpg" height="400" width="1520">
+</br>
+<strong><H1>BREAK FAST</H1></strong>
+
+  <center>
+   <div class="card">
+  <img src="https://shwetainthekitchen.com/wp-content/uploads/2022/01/hotel-style-idli-sambar-chutney.jpg" alt="Denim Jeans" style="width:100%" height="400">
+  <h1>Sambar Idli</h1>
+  <p class="price">$49.99</p>
+  <p>Samber Idli is a traditional fermented rice and black gram based food.</p>
+  <p><button>Add to Cart</button></p>
+</div> 
+   <div class="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZDhI9EqHMeFy4GuqRTRtOQCEvPm2MplbmQ&usqp=CAU" alt="Denim Jeans" style="width:100%" height="400">
+  <h1>Dosa</h1>
+  <p class="price">$49.99</p>
+  <p>Dosa. This crisp, silky pancake is made from rice batter that is served with sambar and chutneys. ...</p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card">
+  <img src="https://cdn.tasteatlas.com//Images/Dishes/e4e3193046014f5bb9d0b6dc838d0f53.jpg?w=905&h=510" style="width:100%" height="400">
+  <h1>Upma</h1>
+  <p class="price">$30.00</p>
+  <p> Traditionally served hot for breakfast, its taste is slightly bland, so various nuts, beans, and spices such as turmeric and chiles are commonly added to the dish in order to improve its flavors.</p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card">
+  <img src="https://cdn.tasteatlas.com//Images/Dishes/9d3c2351d9814a4daba235d7bf7c79f2.jpg?w=905&h=510" alt="Denim Jeans" style="width:100%" height="400">
+  <h1>Puri</h1>
+  <p class="price">$40.00</p>
+  <p>Puri is an unleavened, fried Indian bread made with water, finer or coarser wheat flour, and occasionally cumin seeds. The dough is rolled into flat round shapes and fried in copious amounts of vegetable oil or ghee.</p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card">
+  <img src="https://cdn.tasteatlas.com//Images/Dishes/4e46fbe524c444f7a131f2187c61b6ec.jpg?w=905&h=510" alt="Denim Jeans" style="width:100%" height="400">
+  <h1>Chapati </h1>
+  <p class="price">$20.00</p>
+  <p>made with whole wheat flour, water, and salt. The dough is usually baked on a griddle. It is extremely popular throughout India.</p>
+  <p><button>Add to Cart</button></p>
+</div>
+ </center>
+<center>
+<div  style="background-image: url('http://getwallpapers.com/wallpaper/full/f/0/4/332919.jpg'); ">
+ <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you need further assistance, please don't hesitate to contact us:</p>
+        <p>Email: myrestaurant@gmail.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+</div>
+</center>
+</body>
+</html>

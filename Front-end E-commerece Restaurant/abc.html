@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.in: flipkart</title>
+    <style>
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            background-color: #131921;
+            color: white;
+        }
+
+        .nav {
+            background-color: #232f3e;
+            padding: 0.5rem;
+            color: white;
+        }
+
+        .nav-list {
+            display: flex;
+            gap: 1rem;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+            max-width: 800px;
+            margin: 0 1rem;
+        }
+
+        .search-input {
+            flex-grow: 1;
+            padding: 0.5rem;
+            border: none;
+            border-radius: 4px 0 0 4px;
+        }
+
+        .search-button {
+            padding: 0.5rem 1rem;
+            background: #febd69;
+            border: none;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .main-content {
+            display: flex;
+            padding: 1rem;
+        }
+
+        .sidebar {
+            width: 240px;
+            padding-right: 1rem;
+        }
+
+        .results {
+            flex-grow: 1;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 4px;
+        }
+
+        .samsung-banner {
+            margin-bottom: 2rem;
+            padding: 2rem;
+            background-color: #f8f8f8;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="logo">
+            <img src="/amazon-logo.png" alt="Amazon.in" height="30">
+        </a>
+        <div class="search-container">
+            <input type="text" class="search-input" value="flipkart" />
+            <button class="search-button">
+                <img src="/search-icon.png" alt="Search" height="20">
+            </button>
+        </div>
+        <div class="header-right">
+            <span>Hello, sign in</span>
+            <span>EN</span>
+            <a href="/cart">Cart</a>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <ul class="nav-list">
+            <li>All</li>
+            <li>MX Player</li>
+            <li>Sell</li>
+            <li>Best Sellers</li>
+            <li>Today's Deals</li>
+            <li>Mobiles</li>
+            <li>Customer Service</li>
+            <li>Prime</li>
+            <li>Electronics</li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <aside class="sidebar">
+            <section class="category">
+                <h3>Category</h3>
+                <ul>
+                    <li>Men's Wallets, Card Cases & Money Organisers</li>
+                    <li>Tape, Adhesives & Fasteners</li>
+                </ul>
+            </section>
+            <section class="filters">
+                <h3>Customer Review</h3>
+                <div class="star-rating">⭐⭐⭐⭐ & Up</div>
+                <h3>Price</h3>
+                <div class="price-range">
+                    ₹170 - ₹4,000+
+                </div>
+            </section>
+        </aside>
+
+        <div class="results">
+            <div class="samsung-banner">
+                <img src="/samsung-logo.png" alt="Samsung" />
+                <h2>The All New Galaxy Z Fold6 | Z Flip6: Sale Is Live</h2>
+                <a href="/shop-samsung">Shop Samsung</a>
+            </div>
+
+            <p>1-48 of 952 results for "flipkart"</p>
+            
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="/product1.jpg" alt="Solitude 20 Pack Heavy Duty Self-Adhesive Screw Hooks" />
+                    <h3>Solitude 20 Pack Heavy Duty Self-Adhesive Screw Hooks</h3>
+                    <div class="price">₹499</div>
+                </div>
+                <div class="product-card">
+                    <img src="/product2.jpg" alt="DAHSHA Pocket Sized Stitched PU Leather Credit Card Holder" />
+                    <h3>DAHSHA Pocket Sized Stitched PU Leather Credit Card Holder</h3>
+                    <div class="price">₹299</div>
+                </div>
+                <!-- Additional product cards would follow the same pattern -->
+            </div>
+        </div>
+    </main>
+</body>
+</html>
